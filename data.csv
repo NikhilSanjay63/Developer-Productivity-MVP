@@ -1,0 +1,5 @@
+developer,pr_throughput,cycle_time,lead_time,bug_rate,deploy_freq
+Taylor_Bottleneck,25,60,50,0.02,10
+Morgan_Rushed,10,20,30,0.15,20
+Jordan_GiantBatch,2,30,90,0.02,5
+Alex_Normal,10,20,30,0.02,10

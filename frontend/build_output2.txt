@@ -1,0 +1,13 @@
+
+> dev_productivity_mvp@0.0.0 build
+> vite build
+
+[36mvite v8.0.10 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 581 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.47 kB │ gzip:   0.30 kB
+dist/assets/index-B44uGzE2.css   15.85 kB │ gzip:   3.90 kB
+dist/assets/index-D8H4udOn.js   552.08 kB │ gzip: 165.68 kB
+
+[32m✓ built in 11.88s[39m
