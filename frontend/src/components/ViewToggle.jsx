@@ -2,23 +2,27 @@ import React from 'react';
 
 const ViewToggle = ({ viewMode, setViewMode }) => {
   return (
-    <div className="flex justify-center mb-8">
-      <div className="bg-gray-200 p-1 rounded-lg flex space-x-1">
+    <div className="flex mb-6">
+      <div className="inline-flex bg-gray-100 rounded-lg p-1">
         <button
-          className={`px-6 py-2 rounded-md text-sm font-medium transition-all ${
-            viewMode === 'ic' ? 'bg-white shadow text-indigo-700' : 'text-gray-500 hover:text-gray-700'
-          }`}
           onClick={() => setViewMode('ic')}
+          className={`px-4 py-1.5 text-sm rounded-md transition-all ${
+            viewMode === 'ic'
+              ? 'bg-white text-gray-900 shadow-sm font-medium'
+              : 'text-gray-500 hover:text-gray-700'
+          }`}
         >
-          IC View
+          My View
         </button>
         <button
-          className={`px-6 py-2 rounded-md text-sm font-medium transition-all ${
-            viewMode === 'team' ? 'bg-white shadow text-indigo-700' : 'text-gray-500 hover:text-gray-700'
-          }`}
           onClick={() => setViewMode('team')}
+          className={`px-4 py-1.5 text-sm rounded-md transition-all ${
+            viewMode === 'team'
+              ? 'bg-white text-gray-900 shadow-sm font-medium'
+              : 'text-gray-500 hover:text-gray-700'
+          }`}
         >
-          Manager View
+          Team View
         </button>
       </div>
     </div>
